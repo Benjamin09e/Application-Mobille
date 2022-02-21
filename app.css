@@ -1,0 +1,153 @@
+body{
+	font-family: 'Open Sans', Arial, sans-serif;
+	background: #001E39;
+	color: white;
+	margin: 0;
+}
+
+header{
+	background: #00325E;
+	border-bottom: 7px solid #004E92;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+header h1{
+	text-align: center;
+	font-size: 2.5em;
+}
+
+header span{
+	font-size: 3em;
+	position: absolute;
+	top: 33px;
+	left: 30px;
+}
+
+.category{
+	padding-top: 100px;
+	height: 600px;
+	background: url('category.jpg');
+}
+
+.category h2{
+	font-size: 6em;
+	margin: 0;
+	text-align: center;
+	text-shadow: 0 0 10px black, 0 0 20px black;
+	padding-top: 175px;
+}
+
+#search-form{
+	text-align: center;
+	margin-top: 40px;
+}
+
+#search-text{
+	font-size: 2em;
+	padding: 20px;
+	width: 50%;
+	border: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#search{
+	font-size: 1.75em;
+	background: #2997ab;
+	color: white;
+	padding: 23px;
+	border: none;
+	width: 180px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	position: relative;
+	left: -10px;
+	top: -1px;
+}
+
+nav{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: #00325E;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li a span{
+	color: white;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	width: calc(100% / 3);
+	text-align: center;
+	padding: 50px;
+	box-sizing: border-box;
+	border-top: 7px solid #004E92;
+	border-right: 4px solid #001E39;
+}
+
+nav ul li:nth-child(3){
+	border-right: none;
+}
+
+main{
+	padding: 0 40px 250px 40px;
+}
+
+main h2{
+	font-size: 3em;
+}
+
+.row{
+	display: flex;
+	height: 220px;
+	margin-bottom: 30px;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+	padding-bottom: 20px;
+}
+
+.row img{
+	height: 100%;
+}
+
+.row p{
+	font-size: 2em;
+	padding-left: 40px;
+	margin-top: 20px;
+}
+
+#points{
+	text-align: center;
+	margin: 0;
+	font-size: 4em;
+}
+
+#button-1, #button-2{
+	margin-top: 40px;
+	padding: 32px;
+	width: 100%;
+	font-size: 1.75em;
+	color: white;
+	border: none;
+	border-radius: 100px;
+	font-weight: bold;
+	text-transform: uppercase;
+	box-shadow: 0 3px 2px black;
+}
+
+#button-1{
+	background: #00BE42;
+}
+
+#button-2{
+	background: #0075BE;
+}
